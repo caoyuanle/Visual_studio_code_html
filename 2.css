@@ -1,0 +1,25 @@
+div{
+    border:1px solid black;
+    text-align:center;
+    height:150px;
+    list-style: 23px;
+    text-indent:2em;
+    line-height:1.2em;
+}
+span{
+    text-decoration:line-through;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+    background-color:orange;
+    color:#fff;
+    font-size:17px;
+    font-weight:bold;
+    font-family:arial;  
+    border-radius: 10px;
+}
+/* 像素是一种相对单位 */

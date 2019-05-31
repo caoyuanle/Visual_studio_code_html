@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        p.a {
+            color: maroon;
+            margin: 50px 700px;
+        }
+
+        p.b {
+            margin-top: 2cm;
+            font-size: 20px;
+        }
+
+        ul {
+            list-style: circle;
+
+        }
+
+        #c {
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+            background-image: url(微信图片_20190419102801.jpg);
+            -webkit-animation: mymove 5s infinite;
+            /*animation:电脑动画制作*/
+            animation: mymove 15s infinite;
+            box-shadow: 10px 10px 10px #252523;
+
+        }
+
+        @keyframes mymove {
+
+            /*initial:最初的；*/
+            50% {
+                background-position: bottom;
+            }
+
+            50% {
+                border-bottom-right-radius: 80px;
+            }
+
+            50% {
+                border-bottom-left-radius: 80px;
+            }
+
+            50% {
+                border-top-right-radius: 80px;
+            }
+
+            50% {
+                border-top-left-radius: 80px;
+            }
+
+        }
+
+        div {
+            background-origin: content-box;
+            background-size: 80%;
+            border: 1px solid black;
+            padding: 40px;
+            align-content: center;
+            font-size: 23px;
+            color: mediumvioletred;
+            text-indent: 40px;
+            line-height: 30px;
+            letter-spacing: 7px;
+            font-family: "Time New Roman", 'Times New Roman', Times, serif;
+        }
+
+        body {
+            background-image: url(2.jpg);
+            /* 图像在X方向重复 */
+            /* background-repeat:repeat-x;    */
+            /* 图像固定不动，不滚动 */
+            background-attachment: fixed;
+            background-position: center;
+            background-origin: content-box;
+        }
+
+        a:link {
+            color: #000000;
+        }
+
+        /*未访问链接*/
+        a:visit {
+            color: plum;
+
+        }
+
+        /*a:hover必须跟在它们前面*/
+        a:hover {
+            color: rgb(7, 245, 46);
+        }
+
+        /*a:active必须跟在a:hover的后面*/
+        a:active {
+            color: #0000FF;
+            /*鼠标点击时*/
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>界的会计分录的解放军的飞机路上看见防护激发了肯德基偶粉立方就是冷酷激发了肯德基界的会计分录的解放军的飞机路上看见防护激发了肯德基偶粉立方就是冷酷激发了肯德基界的会计分录的解放军的飞机路上看见防护激发了肯德基偶粉立方就是冷酷激发了肯德基
+        </p>
+        <p id="c"></p>
+    </div>
+    <form action="">
+        <fieldset>
+            <!-- legend是他得标题 -->
+            <legend>Personalia:</legend>
+            Name:<br><input type="text"><br>
+            Email:<br><input type="text"><br>
+            Date of birth:<br><input type="text">
+
+        </fieldset>
+    </form>
+    <p>this is a <mark>dog</mark>
+        <a href="css" target="_blank">点击一下看一下什么效果</a>
+    </p>
+    <ul id="a">
+        <li>咖啡</li>
+        <li>牛奶</li>
+        <li>茶</li>
+    </ul>
+    <p class=a>警告：请勿抄袭</p>
+    <p class="b">这段话距离左边2cm</p>
+
+
+</body>
+
+</html>

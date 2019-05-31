@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>淘宝网-淘！我喜欢</title>
+
+        <style type="text/css">
+
+           h1{
+        text-align: right;
+        color:rgb(158, 12, 243);
+        font-size:40px;
+    }
+    #demo {
+        width:210px;
+        height: 270px;
+        border:1px solid black;
+        display: box;
+       position: absolute;
+       right:30%;
+       box-shadow:5px 5px 5px 5px rgb(44, 40, 40);
+       bottom:5px;
+       background-image:url(time.jpg);
+       background-size: 60%;
+       }
+       .demo{
+        width:210px;
+        height: 270px;
+        border:1px solid black;
+        display: box;
+       position: absolute;
+       right:20px;
+       box-shadow:5px 5px 5px 5px grey;
+       bottom:5px;
+       background-image:url(微信图片_20190513122852.jpg);
+       background-size:25%;
+       }
+    
+            ul{
+                list-style:none;
+                margin:0;
+                padding:0;
+                bottom:300px;
+            }
+            li{
+                float:left;
+                margin:0 10px;
+                color:#f40;
+                font-weight:bold;
+                height:25px;
+                line-height:25px;
+                font-size:14px;
+                bottom:300px;
+            }
+            li:hover{
+                    border-radius: 22px;
+                background-color:#f40;
+                color:#fff;
+            }
+        </style>
+    </head>
+    <body>
+            <h1><em>李红艳专卖店，淘你喜欢</em></h1>
+       
+            <ul>
+                <li>天猫</li>
+                <li>聚划算</li>
+                <li>天猫超市</li>
+                <li>淘抢购</li>
+                <li>李红艳的衣柜</li>
+            </ul>
+        <a href="http://www.baidu.com" target="_blank_">
+            <!--ancher锚-->
+        <img scr="61.gif">
+        </a>
+       
+   
+       
+                    <div>
+                        <p id="demo"></p>
+                        <p class="demo"></p>
+                       
+                    </div>
+                    <p>
+                            用户名:<input type="text" name="用户名" style="color:#999" value="请输入用户名" onfoucs="if(this.value=='请输入用户名')
+                            {this.value='';}" onblur="if(this.value==''){this.value='请输入用户名'}">
+                        </p>
+                        <p> 
+                            密码:&nbsp;&nbsp;&nbsp;<input type="password"  name="密码" >
+                        </p>
+                        <input type="submit" ><br>
+                        <em>家庭住址</em>
+                        <select name="省份">
+                                <option>陕西</option>
+                                <option>上海</option>
+                                <option>陕西</option>
+                                <option>广东</option>
+                            </select>
+    </body>
+</html>
